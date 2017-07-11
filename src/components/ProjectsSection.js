@@ -6,6 +6,8 @@ import Typography from 'material-ui/Typography'
 import Project from './ProjectDetail'
 import projects from '../data/projects.json'
 
+import './ProjectsSection.css'
+
 class ProjectsSection extends Component {
   render () {
     return (
@@ -14,7 +16,7 @@ class ProjectsSection extends Component {
           Projects
         </Typography>
 
-        <Grid container gutter={40}>
+        <Grid container gutter={40} className="projects-list">
           {projects.map(project => {
             return (
               <Grid item xs={12} sm={6} md={4} key={project.title}>

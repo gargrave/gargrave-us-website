@@ -7,6 +7,7 @@ import Header from './components/HeaderSection'
 import Education from './components/EducationSection'
 import Projects from './components/ProjectsSection'
 import Skills from './components/SkillsSection'
+import WorkHistory from './components/WorkHistorySection'
 
 import './App.css'
 
@@ -29,6 +30,8 @@ class App extends Component {
                 <Skills />
                 <hr/>
                 <Education />
+                <hr/>
+                <WorkHistory />
                 <hr/>
                 <Projects />
               </main>
