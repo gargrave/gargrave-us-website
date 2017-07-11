@@ -16,7 +16,7 @@ class SkillsSection extends Component {
         </Typography>
 
         <ul className="skills-list">
-          {skills.map(skill => <Skill skill={skill} />)}
+          {skills.map(skill => <Skill key={skill.title} skill={skill} />)}
         </ul>
       </section>
     );
