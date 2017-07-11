@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
 
-import Grid from 'material-ui/Grid';
 import Typography from 'material-ui/Typography';
+
+import Skill from './SkillListItem';
+import './SkillsSection.css';
+
+import skills from '../data/skills.json'
 
 class SkillsSection extends Component {
   render() {
     return (
-      <Typography type="display1" gutterBottom>
-        Skills
-      </Typography>
+      <section>
+        <Typography type="display1" gutterBottom>
+          Skills
+        </Typography>
+
+        <ul className="skills-list">
+          {skills.map(skill => <Skill skill={skill} />)}
+        </ul>
+      </section>
     );
   }
 }

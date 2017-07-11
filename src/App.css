@@ -1,8 +1,15 @@
 .App {
   max-width: 960px;
   margin: 0 auto;
+  padding: 10px;
+  color: #242424;
 }
 
 .App h1 {
   font-family: 'Lato', sans-serif !important;
+}
+
+.App hr {
+  border: 0;
+  border-bottom: 1px dotted #b3b3b3;
 }

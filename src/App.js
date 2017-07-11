@@ -22,9 +22,12 @@ class App extends Component {
               </header>
             </Grid>
 
+
             <Grid item xs={12}>
               <main>
+                <hr/>
                 <Skills />
+                <hr/>
                 <Projects />
               </main>
             </Grid>
