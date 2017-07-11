@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import Typography from 'material-ui/Typography';
+import Typography from 'material-ui/Typography'
 
-import Skill from './SkillListItem';
-import './SkillsSection.css';
-
+import Skill from './SkillListItem'
+import './SkillsSection.css'
 import skills from '../data/skills.json'
 
 class SkillsSection extends Component {
-  render() {
+  render () {
     return (
       <section>
         <Typography type="display1" gutterBottom>
@@ -19,8 +18,8 @@ class SkillsSection extends Component {
           {skills.map(skill => <Skill key={skill.title} skill={skill} />)}
         </ul>
       </section>
-    );
+    )
   }
 }
 
-export default SkillsSection;
+export default SkillsSection

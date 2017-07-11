@@ -1,15 +1,31 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import Typography from 'material-ui/Typography';
+import Grid from 'material-ui/Grid'
+import Typography from 'material-ui/Typography'
+
+import Project from './ProjectDetail'
+import projects from '../data/projects.json'
 
 class ProjectsSection extends Component {
-  render() {
+  render () {
     return (
-      <Typography type="display1" gutterBottom>
-        Projects
-      </Typography>
-    );
+      <section>
+        <Typography type="display1" gutterBottom>
+          Projects
+        </Typography>
+
+        <Grid container gutter={40}>
+          {projects.map(project => {
+            return (
+              <Grid item xs={12} sm={6} md={4} key={project.title}>
+                <Project project={project} />
+              </Grid>
+            )
+          })}
+        </Grid>
+      </section>
+    )
   }
 }
 
-export default ProjectsSection;
+export default ProjectsSection

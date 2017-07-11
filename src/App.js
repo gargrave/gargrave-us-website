@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import { MuiThemeProvider } from 'material-ui/styles';
-import Grid from 'material-ui/Grid';
+import { MuiThemeProvider } from 'material-ui/styles'
+import Grid from 'material-ui/Grid'
 
-import Header from './components/HeaderSection';
-import Projects from './components/ProjectsSection';
-import Skills from './components/SkillsSection';
+import Header from './components/HeaderSection'
+import Projects from './components/ProjectsSection'
+import Skills from './components/SkillsSection'
 
-import './App.css';
+import './App.css'
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <MuiThemeProvider>
         <div className="App">
@@ -21,7 +21,6 @@ class App extends Component {
                 <Header />
               </header>
             </Grid>
-
 
             <Grid item xs={12}>
               <main>
@@ -35,8 +34,8 @@ class App extends Component {
           </Grid>
         </div>
       </MuiThemeProvider>
-    );
+    )
   }
 }
 
-export default App;
+export default App
