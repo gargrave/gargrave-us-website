@@ -1,14 +1,26 @@
 [
   {
     "title": "Bookly",
-    "subtitle": ""
+    "subtitle": "A 'books and authors' CRUD app.",
+    "description": "This project still needs a description!",
+    "demoUrl": "https://bookly-app.us",
+    "githubUrlClient": "https://github.com/gargrave/bookly-client",
+    "githubUrlServer": "https://github.com/gargrave/bookly-server"
   },
   {
     "title": "Snippets",
-    "subtitle": ""
+    "subtitle": "A 'save it for later' bookmarking app.",
+    "description": "This project still needs a description!",
+    "demoUrl": "https://www.snippets-app.com",
+    "githubUrlClient": "https://github.com/gargrave/snippets-client",
+    "githubUrlServer": "https://github.com/gargrave/snippets-server"
   },
   {
     "title": "GameOn",
-    "subtitle": ""
+    "subtitle": "An app to tracking gaming habits.",
+    "description": "This project still needs a description!",
+    "demoUrl": "https://www.gameon-app.com",
+    "githubUrlClient": "https://github.com/gargrave/gameon-client-quasar",
+    "githubUrlServer": "https://github.com/gargrave/gameon-server"
   }
 ]
