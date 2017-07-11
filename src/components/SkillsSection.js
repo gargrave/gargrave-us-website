@@ -10,7 +10,7 @@ class SkillsSection extends Component {
   render () {
     return (
       <section>
-        <Typography type="display1" gutterBottom>
+        <Typography type="headline" gutterBottom>
           Skills
         </Typography>
 

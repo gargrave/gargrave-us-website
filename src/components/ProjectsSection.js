@@ -10,7 +10,7 @@ class ProjectsSection extends Component {
   render () {
     return (
       <section>
-        <Typography type="display1" gutterBottom>
+        <Typography type="headline" gutterBottom>
           Projects
         </Typography>
 

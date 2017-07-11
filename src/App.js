@@ -4,6 +4,7 @@ import { MuiThemeProvider } from 'material-ui/styles'
 import Grid from 'material-ui/Grid'
 
 import Header from './components/HeaderSection'
+import Education from './components/EducationSection'
 import Projects from './components/ProjectsSection'
 import Skills from './components/SkillsSection'
 
@@ -26,6 +27,8 @@ class App extends Component {
               <main>
                 <hr/>
                 <Skills />
+                <hr/>
+                <Education />
                 <hr/>
                 <Projects />
               </main>
