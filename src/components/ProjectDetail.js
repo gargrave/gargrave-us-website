@@ -12,49 +12,54 @@ const ProjectDetail = (props) => {
 
   return (
     <Paper className="project-detail">
-      <Typography type="headline" component="h3" gutterBottom>
-        {project.title}
-      </Typography>
-      <Typography type="subheading" component="h4" gutterBottom>
-        {project.subtitle}
-      </Typography>
-      <Typography type="body1" component="p" gutterBottom>
-        {project.description}
-      </Typography>
+      <div className="project-detail-title">
+        <Typography type="headline" component="h3" gutterBottom>
+          {project.title}
+        </Typography>
+      </div>
 
-      <hr/>
+      <div className="project-detail-body">
+        <Typography type="subheading" component="h4" gutterBottom>
+          {project.subtitle}
+        </Typography>
+        <Typography type="body1" component="p" gutterBottom>
+          {project.description}
+        </Typography>
 
-      <Typography type="subheading" component="h4" gutterBottom>
-        Related links:
-      </Typography>
+        <hr/>
 
-      <Button
-        className="project-link-btn"
-        raised color="primary"
-        href={project.demoUrl}
-        target="_blank" rel="noopener noreferrer">
-        Demo
-      </Button>
+        <Typography type="subheading" component="h4" gutterBottom>
+          Related links:
+        </Typography>
 
-      {!!project.githubUrlClient &&
-      <Button
-        className="project-link-btn"
-        raised color="accent"
-        href={project.githubUrlClient}
-        target="_blank" rel="noopener noreferrer">
-        Github (Client)
-      </Button>
-      }
+        <Button
+          className="project-link-btn"
+          raised color="primary"
+          href={project.demoUrl}
+          target="_blank" rel="noopener noreferrer">
+          Demo
+        </Button>
 
-      {!!project.githubUrlServer &&
-      <Button
-        className="project-link-btn"
-        raised color="accent"
-        href={project.githubUrlServer}
-        target="_blank" rel="noopener noreferrer">
-        Github (Server)
-      </Button>
-      }
+        {!!project.githubUrlClient &&
+        <Button
+          className="project-link-btn"
+          raised color="accent"
+          href={project.githubUrlClient}
+          target="_blank" rel="noopener noreferrer">
+          Github (Client)
+        </Button>
+        }
+
+        {!!project.githubUrlServer &&
+        <Button
+          className="project-link-btn"
+          raised color="accent"
+          href={project.githubUrlServer}
+          target="_blank" rel="noopener noreferrer">
+          Github (Server)
+        </Button>
+        }
+      </div>
     </Paper>
   )
 }

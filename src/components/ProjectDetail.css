@@ -1,6 +1,24 @@
 .project-detail {
+  border: 1px solid #c5c5c5;
   display: inline-block;
+  padding: 0;
+  text-align: center;
   width: 100%;
+}
+
+.project-detail .project-detail-title {
+  background-color: #e6e6e6;
+  border-bottom: 1px solid #c5c5c5;
+  padding: 8px 10px;
+}
+
+.project-detail .project-detail-title h3 {
+  color: #242424;
+  margin: 0;
+  padding: 0;
+}
+
+.project-detail .project-detail-body {
   padding: 6px 14px;
 }
 
