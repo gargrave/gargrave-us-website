@@ -1,19 +1,21 @@
 import React, { Component } from 'react'
-
 import Typography from 'material-ui/Typography'
 
-class ProjectsSection extends Component {
+import data from '../../data/experience.json'
+import WorkDetail from './WorkDetail'
+
+class WorkHistorySection extends Component {
   render () {
     return (
       <section>
         <Typography type="headline" gutterBottom>
-          Work History
+          Experience
         </Typography>
 
-        <h4>TODO: Fill this out, newphew!</h4>
+        {data.map((workData, i) => <WorkDetail key={i} workData={workData} />)}
       </section>
     )
   }
 }
 
-export default ProjectsSection
+export default WorkHistorySection

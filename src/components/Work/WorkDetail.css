@@ -1,0 +1,17 @@
+.work-detail-container:first-of-type {
+  margin-top: 20px;
+}
+
+.work-detail-container + .work-detail-container {
+  margin-top: 50px;
+}
+
+.work-detail-header p {
+  margin: 4px 0;
+}
+
+@media(min-width: 769px) {
+  .work-detail-container {
+    padding: 0 16px;
+  }
+}
