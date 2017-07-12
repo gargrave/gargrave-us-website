@@ -13,7 +13,7 @@ class ProjectsSection extends Component {
     return (
       <section>
         <Typography type="headline" gutterBottom>
-          Projects
+          Projects (TODO: COMPLETE THIS NEPHEW......)
         </Typography>
 
         <Grid container gutter={40} className="projects-list">

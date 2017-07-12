@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import { MuiThemeProvider } from 'material-ui/styles'
 import Grid from 'material-ui/Grid'
 
+import About from './components/About/AboutSection'
 import Header from './components/Header/HeaderSection'
 import Education from './components/Education/EducationSection'
 import Projects from './components/Projects/ProjectsSection'
@@ -17,7 +18,6 @@ class App extends Component {
       <MuiThemeProvider>
         <div className="App">
           <Grid container gutter={24}>
-
             <Grid item xs={12}>
               <header>
                 <Header />
@@ -26,17 +26,17 @@ class App extends Component {
 
             <Grid item xs={12}>
               <main>
-                <hr/>
+                <About />
+                <hr />
                 <Skills />
-                <hr/>
+                <hr />
                 <Education />
-                <hr/>
+                <hr />
                 <WorkHistory />
-                <hr/>
+                <hr />
                 <Projects />
               </main>
             </Grid>
-
           </Grid>
         </div>
       </MuiThemeProvider>

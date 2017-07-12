@@ -16,12 +16,12 @@
     "subtitle": "(Django, Node, PHP)"
   },
   {
-    "title": "CSS pre-processors and frameworks",
-    "subtitle": "(Sass, Less, Bootstrap, Material)"
-  },
-  {
     "title": "Mobile-first responsive web design",
     "subtitle": ""
+  },
+  {
+    "title": "CSS pre-processors and frameworks",
+    "subtitle": "(Sass, Less, Bootstrap, Material)"
   },
   {
     "title": "Server management",
