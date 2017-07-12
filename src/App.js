@@ -3,11 +3,11 @@ import React, { Component } from 'react'
 import { MuiThemeProvider } from 'material-ui/styles'
 import Grid from 'material-ui/Grid'
 
-import Header from './components/HeaderSection'
-import Education from './components/EducationSection'
-import Projects from './components/ProjectsSection'
-import Skills from './components/SkillsSection'
-import WorkHistory from './components/WorkHistorySection'
+import Header from './components/Header/HeaderSection'
+import Education from './components/Education/EducationSection'
+import Projects from './components/Projects/ProjectsSection'
+import Skills from './components/Skills/SkillsSection'
+import WorkHistory from './components/Work/WorkHistorySection'
 
 import './App.css'
 

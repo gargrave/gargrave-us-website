@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 
 import Typography from 'material-ui/Typography'
 
+import skills from '../../data/skills.json'
+
 import Skill from './SkillListItem'
 import './SkillsSection.css'
-import skills from '../data/skills.json'
 
 class SkillsSection extends Component {
   render () {

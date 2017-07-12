@@ -4,9 +4,9 @@ import Grid from 'material-ui/Grid'
 import Typography from 'material-ui/Typography'
 
 import Project from './ProjectDetail'
-import projects from '../data/projects.json'
-
 import './ProjectsSection.css'
+
+import projects from '../../data/projects.json'
 
 class ProjectsSection extends Component {
   render () {
@@ -19,7 +19,7 @@ class ProjectsSection extends Component {
         <Grid container gutter={40} className="projects-list">
           {projects.map(project => {
             return (
-              <Grid item xs={12} sm={6} md={4} key={project.title}>
+              <Grid item xs={12} sm={6} key={project.title}>
                 <Project project={project} />
               </Grid>
             )
