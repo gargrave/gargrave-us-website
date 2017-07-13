@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node scripts/start.js",
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "node scripts/build.js && yarn copydeploy",
+    "copydeploy": "rm -rf ../gargrave-us-deploy && cp -R ./build ../gargrave-us-deploy",
     "test": "node scripts/test.js --env=jsdom"
   },
   "dependencies": {
@@ -36,6 +37,7 @@
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
+    "markdown": "^0.5.0",
     "material-ui": "next",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.0.0",
