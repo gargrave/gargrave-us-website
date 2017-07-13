@@ -9,14 +9,26 @@ class WorkDetail extends Component {
     return (
       <section className="work-detail-container">
         <div className="work-detail-header">
-          <p><strong>{jobTitle}, {company}</strong></p>
-          <p>{dates}</p>
+          <p>
+            <strong>
+              {jobTitle && `${jobTitle}, `} {company}
+            </strong>
+          </p>
+          <p>
+            {dates}
+          </p>
         </div>
-        <p>{summary}</p>
+        <p>
+          {summary}
+        </p>
 
         <ul>
           {bullets.map((b, i) => {
-            return <li key={i}>{b}</li>
+            return (
+              <li key={i}>
+                {b}
+              </li>
+            )
           })}
         </ul>
       </section>

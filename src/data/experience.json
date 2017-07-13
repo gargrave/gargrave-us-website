@@ -27,10 +27,10 @@
     ]
   },
   {
-    "jobTitle": "Web Developer",
+    "jobTitle": "",
     "company": "Personal/Side Projects",
     "location": "",
-    "dates": "01/2012 to Current",
+    "dates": "",
     "summary": "Various personal projects built with a variety of frameworks and technologies.",
     "bullets": [
       "Front end development with React/Redux, VueJS, Angular, and more",
