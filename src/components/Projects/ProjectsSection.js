@@ -6,14 +6,14 @@ import Typography from 'material-ui/Typography'
 import Project from './ProjectDetail'
 import './ProjectsSection.css'
 
-import projects from '../../data/projects.json'
+import projects from '../../data/projects'
 
 class ProjectsSection extends Component {
   render () {
     return (
       <section>
         <Typography type="headline" gutterBottom>
-          Projects (TODO: COMPLETE THIS NEPHEW......)
+          Projects
         </Typography>
 
         <Grid container gutter={40} className="projects-list">

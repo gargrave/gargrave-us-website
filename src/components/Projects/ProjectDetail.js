@@ -1,13 +1,14 @@
 import React from 'react'
-import { shape, string } from 'prop-types'
+import { array, shape, string } from 'prop-types'
 
-import Button from 'material-ui/Button'
+import { markdown } from 'markdown'
 import Paper from 'material-ui/Paper'
 import Typography from 'material-ui/Typography'
 
 import './ProjectDetail.css'
+import ProjectLinkButton from './ProjectLinkButton'
 
-const ProjectDetail = (props) => {
+const ProjectDetail = props => {
   const { project } = props
 
   return (
@@ -19,46 +20,24 @@ const ProjectDetail = (props) => {
       </div>
 
       <div className="project-detail-body">
-        <Typography type="subheading" component="h4" gutterBottom>
-          {project.subtitle}
-        </Typography>
-        <Typography type="body1" component="p" gutterBottom>
-          {project.description}
-        </Typography>
+        <Typography
+          type="subheading"
+          component="h4"
+          dangerouslySetInnerHTML={{ __html: markdown.toHTML(project.subtitle) }}
+        />
 
-        <hr/>
+        {project.description.map((d, i) => {
+          return (
+            <Typography type="body1" component="p" key={i} dangerouslySetInnerHTML={{ __html: markdown.toHTML(d) }} />
+          )
+        })}
 
+        <hr />
         <Typography type="subheading" component="h4" gutterBottom>
           Related links:
         </Typography>
 
-        <Button
-          className="project-link-btn"
-          raised color="primary"
-          href={project.demoUrl}
-          target="_blank" rel="noopener noreferrer">
-          Demo
-        </Button>
-
-        {!!project.githubUrlClient &&
-        <Button
-          className="project-link-btn"
-          raised color="accent"
-          href={project.githubUrlClient}
-          target="_blank" rel="noopener noreferrer">
-          Github (Client)
-        </Button>
-        }
-
-        {!!project.githubUrlServer &&
-        <Button
-          className="project-link-btn"
-          raised color="accent"
-          href={project.githubUrlServer}
-          target="_blank" rel="noopener noreferrer">
-          Github (Server)
-        </Button>
-        }
+        {project.links && project.links.map((link, i) => <ProjectLinkButton key={link.url} link={link} />)}
       </div>
     </Paper>
   )
@@ -68,10 +47,8 @@ ProjectDetail.propTypes = {
   project: shape({
     title: string.isRequired,
     subtitle: string.isRequired,
-    description: string.isRequired,
-    demoUrl: string.isRequired,
-    githubUrlClient: string,
-    githubUrlServer: string
+    description: array.isRequired,
+    links: array
   }).isRequired
 }
 
