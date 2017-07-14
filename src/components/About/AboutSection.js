@@ -1,22 +1,22 @@
 import React, { Component } from 'react'
 
-import { markdown } from 'markdown'
+import Markdown from 'markdown-it'
 import Typography from 'material-ui/Typography'
 
-import './AboutSection.css'
-
 import data from '../../data/about'
+
+const md = new Markdown()
 
 class AcountSection extends Component {
   render () {
     return (
       <section className="about-section">
-        <Typography type="headline" gutterBottom>
+        <Typography type="headline" component="h2" gutterBottom>
           About
         </Typography>
 
         {data.map((text, i) => {
-          return <p key={i} className="basic-text" dangerouslySetInnerHTML={{ __html: markdown.toHTML(text) }} />
+          return <p key={i} className="basic-text" dangerouslySetInnerHTML={{ __html: md.renderInline(text) }} />
         })}
       </section>
     )
