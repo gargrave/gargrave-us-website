@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { array, shape, string } from 'prop-types'
-import Markdown from 'markdown-it'
 
 import './WorkDetail.css'
 
+import Markdown from 'markdown-it'
 const md = new Markdown()
 
 class WorkDetail extends Component {

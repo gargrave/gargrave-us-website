@@ -10,7 +10,7 @@ const md = new Markdown()
 class AcountSection extends Component {
   render () {
     return (
-      <section className="about-section">
+      <section id="about" className="about-section">
         <Typography type="headline" component="h2" gutterBottom>
           About
         </Typography>

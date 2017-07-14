@@ -5,9 +5,9 @@ import Typography from 'material-ui/Typography'
 class HeaderSection extends Component {
   render () {
     return (
-      <Typography type="display2" gutterBottom>
-        gargrave.us
-      </Typography>
+      <section id="header">
+        <Typography type="display2">gargrave.us</Typography>
+      </section>
     )
   }
 }

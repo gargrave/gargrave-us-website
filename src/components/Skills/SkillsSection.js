@@ -10,8 +10,8 @@ import './SkillsSection.css'
 class SkillsSection extends Component {
   render () {
     return (
-      <section>
-        <Typography type="headline" gutterBottom>
+      <section id="skills">
+        <Typography type="headline" component="h2">
           Skills
         </Typography>
 

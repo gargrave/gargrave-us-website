@@ -11,8 +11,8 @@ import data from '../../data/projects'
 class ProjectsSection extends Component {
   render () {
     return (
-      <section>
-        <Typography type="headline" gutterBottom>
+      <section id="projects">
+        <Typography type="headline" component="h2">
           Projects
         </Typography>
 

@@ -9,8 +9,8 @@ import data from '../../data/experience'
 class WorkHistorySection extends Component {
   render () {
     return (
-      <section className="work-section">
-        <Typography type="headline" component="h2" gutterBottom>
+      <section id="experience" className="work-section">
+        <Typography type="headline" component="h2">
           Experience
         </Typography>
 
