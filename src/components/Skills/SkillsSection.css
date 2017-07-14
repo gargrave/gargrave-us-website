@@ -2,7 +2,7 @@
   line-height: 1.3rem;
 }
 
-@media (min-width: 769px) {
+@media only screen and (min-width: 769px) {
   .App .skills-list li {
     line-height: 1.6rem;
   }
