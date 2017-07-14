@@ -19,8 +19,7 @@ class ProjectsSection extends Component {
         <p className="basic-text">
           These are a few of the projects I have built outside of my day job. I work full-time and like to uphold the
           belief that I have a life, so my time is fairly limited, but I do my best to continue learning new things and
-          build somewhat substantial projects into which I can apply said things. If I&apos;m not learning new things
-          and challenging myself, I feel like I am stagnating.
+          build somewhat substantial projects into which I can apply said things.
         </p>
 
         <p className="basic-text">
