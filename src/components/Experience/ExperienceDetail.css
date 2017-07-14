@@ -1,0 +1,26 @@
+.experience-detail-container:first-of-type {
+  margin-top: 20px;
+}
+
+.experience-detail-container + .experience-detail-container {
+  margin-top: 40px;
+}
+
+.experience-detail-header p {
+  margin: 4px 0;
+}
+
+.experience-detail-header h3,
+.experience-detail-header h4 {
+  margin: 3px 0;
+}
+
+.experience-detail-header h4 {
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 769px) {
+  .experience-detail-container {
+    padding: 0 16px;
+  }
+}
