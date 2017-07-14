@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 
 import Typography from 'material-ui/Typography'
 
-import skills from '../../data/skills.json'
-
 import Skill from './SkillListItem'
 import './SkillsSection.css'
+
+import data from '../../data/skills'
 
 class SkillsSection extends Component {
   render () {
@@ -16,7 +16,7 @@ class SkillsSection extends Component {
         </Typography>
 
         <ul className="skills-list">
-          {skills.map(skill => <Skill key={skill.title} skill={skill} />)}
+          {data.map((skill, i) => <Skill key={i} skill={skill} />)}
         </ul>
       </section>
     )

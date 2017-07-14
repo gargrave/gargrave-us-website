@@ -1,10 +1,18 @@
 import React from 'react'
 import { shape, string } from 'prop-types'
 
-const SkillListemItem = (props) => {
+import Markdown from 'markdown-it'
+
+const md = new Markdown()
+
+const SkillListemItem = props => {
   const { skill } = props
   return (
-    <li><strong>{skill.title}</strong> {skill.subtitle}</li>
+    <li>
+      <strong dangerouslySetInnerHTML={{ __html: md.renderInline(skill.title) }} />
+      &nbsp;
+      <span dangerouslySetInnerHTML={{ __html: md.renderInline(skill.subtitle) }} />
+    </li>
   )
 }
 
