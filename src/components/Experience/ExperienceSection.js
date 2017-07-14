@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Typography from 'material-ui/Typography'
 
 import ExperienceDetail from './ExperienceDetail'
-import './ExperienceSection.css'
 
 import data from '../../data/experience'
 

@@ -1,9 +1,0 @@
-.App .experience-section li {
-  line-height: 1.3rem;
-}
-
-@media only screen and (min-width: 769px) {
-  .App .experience-section li {
-    line-height: 1.4rem;
-  }
-}

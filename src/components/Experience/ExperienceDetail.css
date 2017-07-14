@@ -1,26 +1,42 @@
-.experience-detail-container:first-of-type {
+.App .experience-detail-bullets li {
+  line-height: 1.3rem;
+}
+
+.App .experience-detail-container:first-of-type {
   margin-top: 20px;
 }
 
-.experience-detail-container + .experience-detail-container {
-  margin-top: 40px;
+.App .experience-detail-container + .experience-detail-container {
+  margin-top: 50px;
 }
 
-.experience-detail-header p {
+.App .experience-detail-header p {
   margin: 4px 0;
 }
 
-.experience-detail-header h3,
-.experience-detail-header h4 {
+.App .experience-detail-header h3,
+.App .experience-detail-header h4 {
   margin: 3px 0;
 }
 
-.experience-detail-header h4 {
+.App .experience-detail-header h4 {
   font-weight: normal;
 }
 
+.App .experience-detail-jobtitle {
+  text-decoration: underline;
+}
+
+.App p.experience-detail-summary {
+  margin: 12px 0;
+}
+
 @media only screen and (min-width: 769px) {
-  .experience-detail-container {
+  .App .experience-detail-bullets li {
+    line-height: 1.5rem;
+  }
+
+  .App .experience-detail-container {
     padding: 0 16px;
   }
 }
