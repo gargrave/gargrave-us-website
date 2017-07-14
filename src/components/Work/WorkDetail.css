@@ -3,11 +3,20 @@
 }
 
 .work-detail-container + .work-detail-container {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .work-detail-header p {
   margin: 4px 0;
+}
+
+.work-detail-header h3,
+.work-detail-header h4 {
+  margin: 3px 0;
+}
+
+.work-detail-header h4 {
+  font-weight: normal;
 }
 
 @media only screen and (min-width: 769px) {

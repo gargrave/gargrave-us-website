@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { array, shape, string } from 'prop-types'
 
+import Typography from 'material-ui/Typography'
+
 import './WorkDetail.css'
 
 class WorkDetail extends Component {
@@ -9,16 +11,15 @@ class WorkDetail extends Component {
     return (
       <section className="work-detail-container">
         <div className="work-detail-header">
-          <p>
-            <strong>
-              {jobTitle && `${jobTitle}, `} {company}
-            </strong>
-          </p>
-          <p>
+          <h3 className="work-detail-header-jobtitle">
+            {jobTitle && `${jobTitle}, `} {company}
+          </h3>
+          <h4 className="work-detail-header-dates">
             {dates}
-          </p>
+          </h4>
         </div>
-        <p>
+
+        <p className="work-detail-summary">
           {summary}
         </p>
 

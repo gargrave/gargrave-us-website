@@ -10,7 +10,7 @@ class WorkHistorySection extends Component {
   render () {
     return (
       <section className="work-section">
-        <Typography type="headline" gutterBottom>
+        <Typography type="headline" component="h2" gutterBottom>
           Experience
         </Typography>
 
