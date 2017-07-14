@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Typography from 'material-ui/Typography'
 
-import data from '../../data/experience.json'
 import WorkDetail from './WorkDetail'
-
 import './WorkHistorySection.css'
+
+import data from '../../data/experience'
 
 class WorkHistorySection extends Component {
   render () {

@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import { array, shape, string } from 'prop-types'
-
-import Typography from 'material-ui/Typography'
+import Markdown from 'markdown-it'
 
 import './WorkDetail.css'
+
+const md = new Markdown()
 
 class WorkDetail extends Component {
   render () {
@@ -14,22 +15,15 @@ class WorkDetail extends Component {
           <h3 className="work-detail-header-jobtitle">
             {jobTitle && `${jobTitle}, `} {company}
           </h3>
-          <h4 className="work-detail-header-dates">
-            {dates}
-          </h4>
+
+          <h4 className="work-detail-header-dates" dangerouslySetInnerHTML={{ __html: md.renderInline(dates) }} />
         </div>
 
-        <p className="work-detail-summary">
-          {summary}
-        </p>
+        <p className="work-detail-summary" dangerouslySetInnerHTML={{ __html: md.renderInline(summary) }} />
 
-        <ul>
-          {bullets.map((b, i) => {
-            return (
-              <li key={i}>
-                {b}
-              </li>
-            )
+        <ul className="work-detail-bullets">
+          {bullets.map((bullet, i) => {
+            return <li key={i} dangerouslySetInnerHTML={{ __html: md.renderInline(bullet) }} />
           })}
         </ul>
       </section>
