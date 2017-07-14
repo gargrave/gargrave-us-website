@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 
 import Typography from 'material-ui/Typography'
 
+import EducationDetail from './EducationDetail'
+
+import data from '../../data/education'
+
 class EducationSection extends Component {
   render () {
     return (
@@ -10,12 +14,9 @@ class EducationSection extends Component {
           Education
         </Typography>
 
-        <ul>
-          <li>
-            <strong>Associate of Applied Science in Computer Information Systems</strong>
-          </li>
-          <li>Portland Community College - Portland, OR</li>
-        </ul>
+        {data.map((detail, i) => {
+          return <EducationDetail key={i} detail={detail} />
+        })}
       </section>
     )
   }
