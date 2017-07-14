@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import Typography from 'material-ui/Typography'
-
 import './Footer.css'
 
 class Footer extends Component {

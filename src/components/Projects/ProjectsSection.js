@@ -16,6 +16,18 @@ class ProjectsSection extends Component {
           Projects
         </Typography>
 
+        <p className="basic-text">
+          These are a few of the projects I have built outside of my day job. I work full-time and like to uphold the
+          belief that I have a life, so my time is fairly limited, but I do my best to continue learning new things and
+          build somewhat substantial projects into which I can apply said things. If I&apos;m not learning new things
+          and challenging myself, I feel like I am stagnating.
+        </p>
+
+        <p className="basic-text">
+          These all include notes, demos, and source code. Some of the GitHub repos have pretty extensive notes and
+          docs, and others... not so much.
+        </p>
+
         <Grid container gutter={40} className="projects-list">
           {projects.map(project => {
             return (

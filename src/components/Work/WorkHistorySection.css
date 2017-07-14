@@ -1,0 +1,9 @@
+.App .work-section li {
+  line-height: 1.3rem;
+}
+
+@media (min-width: 769px) {
+  .App .work-section li {
+    line-height: 1.4rem;
+  }
+}

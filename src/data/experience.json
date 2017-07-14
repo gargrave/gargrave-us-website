@@ -4,9 +4,9 @@
     "company": "InterCall (West)",
     "location": "Portland, OR",
     "dates": "04/2015 to Current",
-    "summary": "Front-end developer for event registration e-commerce platform.",
+    "summary": "Front-end developer for IER, an event registration e-commerce platform.",
     "bullets": [
-      "Led a small team in rebuilding the existing front end codebase",
+      "Led a small team in rebuilding the existing front end code base",
       "Provided support, bug-fixes, and custom builds for both internal and external clients",
       "Managed Git/BitBucket repositories to ensure compliance with code style guidelines and keep all custom builds in sync with fixes and new features",
       "Assisted back end development team in tracking down bugs in C#/ASP.NET codebase",
@@ -34,7 +34,7 @@
     "summary": "Various personal projects built with a variety of frameworks and technologies.",
     "bullets": [
       "Front end development with React/Redux, VueJS, Angular, and more",
-      "Back end development with Django/Django REST Framework and NodeJS",
+      "Back end development with Django/Django REST Framework and Node",
       "Hybrid web/mobile development with Ionic and Quasar frameworks",
       "See the 'Projects' section below for project-specific details"
     ]

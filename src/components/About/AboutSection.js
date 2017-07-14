@@ -1,21 +1,23 @@
 import React, { Component } from 'react'
 
+import { markdown } from 'markdown'
 import Typography from 'material-ui/Typography'
+
+import './AboutSection.css'
+
+import data from '../../data/about'
 
 class AcountSection extends Component {
   render () {
     return (
-      <section>
+      <section className="about-section">
         <Typography type="headline" gutterBottom>
-          About (TODO: COMPLETE THIS NEPHEW......)
+          About
         </Typography>
 
-        <p>
-          I am Gabe, and I am amazing. You can find me on LinkedIn at this great link, and on Github and this great
-          link.
-        </p>
-
-        <p>This site itself was built with so-and-so, and the full source can be viewed at this awesome-o link.</p>
+        {data.map((text, i) => {
+          return <p key={i} className="basic-text" dangerouslySetInnerHTML={{ __html: markdown.toHTML(text) }} />
+        })}
       </section>
     )
   }

@@ -3,8 +3,8 @@
     "title": "Bookly",
     "subtitle": "A 'books and authors' CRUD app. Track your favorite authors, then track their books! Amazing!",
     "description": [
-      "I intentionally kept the design of this app simple so I could focus on learning the HapiJS ecosystem, and building a robust REST API therein. I really enjoyed working with Hapi, and found it a very easy framework to work with, particularly when expanding it to add new featuers. I will definitely continue using it for my API needs going forward.",
-      "I also used this as an opportunity to finally learn how to set up my own Ubuntu/Nginx server on Digital Ocean, so that is where the API is being served from.",
+      "I intentionally kept the design of this app simple so I could focus on learning the HapiJS ecosystem, and building a robust REST API therein.",
+      "I also used this as an opportunity to learn how to set up an Ubuntu/Nginx server on Digital Ocean, so that is where the API is being served from.",
       "Front end built with [Quasar](https://github.com/quasarframework/quasar) (Vue) and deployed via Netlify, back end built with [HapiJS](https://github.com/hapijs/hapi) (Node) and deployed on Nginx/Ubuntu on Digital Ocean. For more details, check out the demo and/or repos below!"
     ],
     "links": [
@@ -29,7 +29,7 @@
     "description": [
       "I have used Pocket and Keep off and on for a few years, and while I like them both, I also have many complaints about both of them. So I built my own version that includes only the features I like without any of the extra junk I don't like (e.g. ads injected into my data--_looking at you, Pocket_).",
       "Front end built with [Vue](https://github.com/vuejs/vue) + [Element](https://github.com/ElemeFE/element) and deployed via Netlify, back end built with [Django REST Framework](https://github.com/encode/django-rest-framework) and deployed on Heroku. For more details, check out the demo and/or repos below!",
-      "**Note**: The app is deployed on a free Heroku dyno, so if it takes a few seconds to spin up, don't panic! Everything is going to be okay, I promise!"
+      "**Note**: The API is deployed on a free Heroku dyno, so if it takes a few seconds to spin up, don't panic! Everything is going to be okay, I promise!"
     ],
     "links": [
       {
@@ -53,7 +53,7 @@
     "description": [
       "A fairly simple app to allow you to track your gaming habits. I have a strong, very non-scientific fixation with seeing what games I was playing when, and for how many days, so I built this app to let me do just that.",
       "Front end built with [Quasar](https://github.com/quasarframework/quasar) (Vue) and deployed via Netlify, back end built with [Django REST Framework](https://github.com/encode/django-rest-framework) and deployed on Heroku. For more details, check out the demo and/or repos below!",
-      "**Note**: The app is deployed on a free Heroku dyno, so if it takes a few seconds to spin up, don't panic! Everything is going to be okay, I promise!"
+      "**Note**: The API is deployed on a free Heroku dyno, so if it takes a few seconds to spin up, don't panic! Everything is going to be okay, I promise!"
     ],
     "links": [
       {
