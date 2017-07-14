@@ -1,5 +1,6 @@
 import React from 'react'
 import { array, shape, string } from 'prop-types'
+import Markdown from 'markdown-it'
 
 import Paper from 'material-ui/Paper'
 import Typography from 'material-ui/Typography'
@@ -7,7 +8,6 @@ import Typography from 'material-ui/Typography'
 import './ProjectDetail.css'
 import ProjectLinkButton from './ProjectLinkButton'
 
-import Markdown from 'markdown-it'
 const md = new Markdown()
 
 const ProjectDetail = props => {
@@ -15,10 +15,14 @@ const ProjectDetail = props => {
 
   return (
     <Paper className="project-detail">
-      <div className="project-detail-title">
-        <Typography type="headline" component="h3" gutterBottom>
-          {project.title}
-        </Typography>
+      <div className="project-detail-header">
+        <Typography
+          type="headline"
+          component="h3"
+          gutterBottom
+          className="project-detail-title"
+          dangerouslySetInnerHTML={{ __html: md.renderInline(project.title) }}
+        />
       </div>
 
       <div className="project-detail-body">
