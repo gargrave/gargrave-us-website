@@ -4,6 +4,7 @@ import { MuiThemeProvider } from 'material-ui/styles'
 import Grid from 'material-ui/Grid'
 
 import About from './components/About/AboutSection'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header/HeaderSection'
 import Education from './components/Education/EducationSection'
 import Projects from './components/Projects/ProjectsSection'
@@ -22,9 +23,7 @@ class App extends Component {
               <header>
                 <Header />
               </header>
-            </Grid>
 
-            <Grid item xs={12}>
               <main>
                 <About />
                 <hr />
@@ -36,6 +35,10 @@ class App extends Component {
                 <hr />
                 <Projects />
               </main>
+
+              <footer>
+                <Footer />
+              </footer>
             </Grid>
           </Grid>
         </div>
