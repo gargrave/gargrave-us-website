@@ -21,3 +21,7 @@
 .project-detail .project-detail-body {
   padding: 6px 14px;
 }
+
+h5.project-detail-related-links {
+  margin-bottom: 16px;
+}
