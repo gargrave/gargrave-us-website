@@ -12,4 +12,3 @@ These are my short-term todos (i.e. when I have time within the next couple of d
 
 - [ ] Create a favicon to replace the default React one
 - [ ] Do something with the header area. Anything.
-- [ ] Fix the styling of the Card/Paper elements in the "Projects" section, particularly with the `<p>` tags.
