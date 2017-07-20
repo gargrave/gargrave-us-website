@@ -22,6 +22,34 @@
   padding: 6px 14px;
 }
 
+.project-detail .project-detail-body h4 {
+  line-height: 1.3rem;
+  margin-bottom: 16px;
+  margin-top: 6px;
+}
+
+.project-detail .project-detail-body p {
+  line-height: 1.2rem;
+}
+
 h5.project-detail-related-links {
   margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 769px) {
+  .project-detail .project-detail-body {
+    padding: 6px 20px;
+  }
+
+  .project-detail .project-detail-body h4 {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+
+  .project-detail .project-detail-body p {
+    font-size: .9rem;
+    line-height: 1.4rem;
+  }
 }
