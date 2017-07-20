@@ -27,6 +27,14 @@ class ProjectsSection extends Component {
           docs, and others... not so much.
         </p>
 
+        <p className="basic-text">
+          (There are more repos for a handful of various older and smaller projects avilable{' '}
+          <a href="https://github.com/gargrave?tab=repositories" target="_blank" rel="noopener noreferrer">
+            here
+          </a>{' '}
+          as well, but they are not as well-documented and user-friendly as these, so enter at your own risk!)
+        </p>
+
         <Grid container gutter={40} className="projects-list">
           {data.map(project => {
             return (

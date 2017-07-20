@@ -1,7 +1,7 @@
 export default [
   {
     title: 'JavaScript',
-    subtitle: '(expert)'
+    subtitle: '(advanced)'
   },
   {
     title: 'Python, C#, Java, PHP',
