@@ -1,9 +1,17 @@
 export default [
   {
+    jobTitle: 'Frontend Engineer',
+    company: 'Opal',
+    location: 'Portland, OR',
+    dates: '08/2017 to Current',
+    summary: 'Front-end web developer at Opal Labs.',
+    bullets: []
+  },
+  {
     jobTitle: 'Web Developer',
     company: 'InterCall (West)',
     location: 'Portland, OR',
-    dates: '04/2015 to Current',
+    dates: '04/2015 to 08/2017',
     summary: 'Front-end developer for _IER_, an event registration e-commerce platform.',
     bullets: [
       'Led a small team in rebuilding the existing front end code base',
