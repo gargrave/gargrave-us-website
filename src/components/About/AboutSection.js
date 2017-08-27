@@ -11,6 +11,8 @@ class AcountSection extends Component {
   render () {
     return (
       <section id="about" className="about-section">
+        <Typography type="display2">Gabe Hargrave</Typography>
+        <hr />
         <Typography type="headline" component="h2" gutterBottom>
           About
         </Typography>

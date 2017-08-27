@@ -6,7 +6,7 @@ import Grid from 'material-ui/Grid'
 import About from './components/About/AboutSection'
 import Experience from './components/Experience/ExperienceSection'
 import Footer from './components/Footer/Footer'
-import Header from './components/Header/HeaderSection'
+// import Header from './components/Header/HeaderSection'
 import Education from './components/Education/EducationSection'
 import Projects from './components/Projects/ProjectsSection'
 import Skills from './components/Skills/SkillsSection'
@@ -20,10 +20,6 @@ class App extends Component {
         <div className="App">
           <Grid container gutter={24}>
             <Grid item xs={12}>
-              <header>
-                <Header />
-              </header>
-
               <main>
                 <About />
                 <hr />
