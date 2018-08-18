@@ -42,8 +42,8 @@ export default [
     dates: '',
     summary: 'Various personal projects built with a variety of frameworks and technologies',
     bullets: [
-      'Front end development with React/Redux, VueJS, Angular, and more',
-      'Back end development with Node and Django/Django REST Framework',
+      'Front-end development with React/Redux, VueJS, Angular, and more',
+      'Back-end development with Node and Django/Django REST Framework',
       'Hybrid web/mobile development with Quasar and Ionic',
       'See the _Projects_ section below for project-specific details'
     ]

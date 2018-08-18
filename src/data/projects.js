@@ -64,7 +64,7 @@ export default [
     subtitle: 'A "save it for later" bookmarking app, similar to Pocket or Google Keep.',
     description: [
       "I have used Pocket and Keep off and on for a few years, and while I like them both, I also have many complaints about both of them. So I built this to include only the features I like without any of the extra junk I don't like.",
-      'Front-end built with [Vue](https://github.com/vuejs/vue) + [Element](https://github.com/ElemeFE/element), back end built with [Django REST Framework](https://github.com/encode/django-rest-framework). For more details, check out the demo and/or repos below!',
+      'Front-end built with [Vue](https://github.com/vuejs/vue) + [Element](https://github.com/ElemeFE/element), back-end built with [Django REST Framework](https://github.com/encode/django-rest-framework). For more details, check out the demo and/or repos below!',
       "**Note**: The back-end is deployed on a free Heroku dyno, so if it takes a few seconds to spin up, don't panic! Everything is going to be okay, I promise!"
     ],
     links: [
