@@ -39,11 +39,11 @@ export default [
     company: 'Side Projects and Other Fun Stuff',
     location: '',
     dates: '',
-    summary: 'Various personal projects built with a variety of frameworks and technologies.',
+    summary: 'Various personal projects built with a variety of frameworks and technologies',
     bullets: [
       'Front end development with React/Redux, VueJS, Angular, and more',
-      'Back end development with Django/Django REST Framework and Node',
-      'Hybrid web/mobile development with Ionic and Quasar frameworks',
+      'Back end development with Node and Django/Django REST Framework',
+      'Hybrid web/mobile development with Quasar and Ionic',
       'See the _Projects_ section below for project-specific details'
     ]
   }

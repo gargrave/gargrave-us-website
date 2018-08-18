@@ -17,9 +17,9 @@ class ProjectsSection extends Component {
         </Typography>
 
         <p className="basic-text">
-          These are a few of the projects I have built outside of my day job. I work full-time and like to uphold the
-          belief that I have a life, so my time is fairly limited, but I do my best to continue learning new things and
-          build somewhat substantial projects into which I can apply said things.
+          A handful of non-work-related projects I have built when I have had some free time. Time and energy to work on
+          this kind of stuff outside of work is generally fairly limited, but I do my best to ensure I stay up-to-date
+          on new technologies and push myself to learn new things and apply them in a project somewhere.
         </p>
 
         <p className="basic-text">
@@ -36,11 +36,9 @@ class ProjectsSection extends Component {
         </p>
 
         <Grid container gutter={40} className="projects-list">
-          {data.map(project => {
+          {data.map((project, i) => {
             return (
-              <Grid item xs={12} sm={6} key={project.title}>
-                <Project project={project} />
-              </Grid>
+              <Project key={i} project={project} />
             )
           })}
         </Grid>

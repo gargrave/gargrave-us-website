@@ -1,6 +1,8 @@
 .project-detail {
   border: 1px solid #c5c5c5;
   display: inline-block;
+  margin: 12px;
+  max-width: 550px;
   padding: 0;
   text-align: center;
   width: 100%;
@@ -37,6 +39,10 @@ h5.project-detail-related-links {
 }
 
 @media only screen and (min-width: 769px) {
+  .project-detail {
+    margin: 12px auto;
+  }
+
   .project-detail .project-detail-body {
     padding: 6px 20px;
   }

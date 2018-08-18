@@ -25,9 +25,9 @@ class App extends Component {
                 <hr />
                 <Skills />
                 <hr />
-                <Education />
-                <hr />
                 <Experience />
+                <hr />
+                <Education />
                 <hr />
                 <Projects />
               </main>

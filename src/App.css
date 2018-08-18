@@ -4,7 +4,7 @@
   color: #242424;
   font-size: 14px;
   margin: 0 auto;
-  max-width: 720px;
+  max-width: 800px;
   padding: 20px;
 }
 
@@ -30,10 +30,15 @@
   padding-left: 25px;
 }
 
+h1 {
+  font-size: 40px !important;
+  line-height: 40px !important;
+}
+
 @media only screen and (min-width: 769px) {
   .App {
     border: solid 1px rgba(0, 0, 0, .1);
-    padding: 24px 32px;
+    padding: 24px 50px;
   }
 
   .App li,
