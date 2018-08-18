@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "node scripts/start.js",
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js && yarn copydeploy",
-    "copydeploy": "cp -R ./build/* ../gargrave-us-deploy",
-    "test": "node scripts/test.js --env=jsdom"
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom",
+    "deploy": "yarn build && firebase deploy"
   },
   "dependencies": {
     "autoprefixer": "7.1.1",
@@ -43,9 +43,9 @@
     "postcss-flexbugs-fixes": "3.0.0",
     "postcss-loader": "2.0.6",
     "promise": "7.1.1",
-    "react": "^15.6.1",
-    "react-dev-utils": "^3.0.2",
-    "react-dom": "^15.6.1",
+    "react": "^16.4.2",
+    "react-dev-utils": "^5.0.1",
+    "react-dom": "^16.4.2",
     "react-error-overlay": "^1.0.9",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.3",
