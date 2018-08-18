@@ -1,24 +1,26 @@
 export default [
   {
-    jobTitle: 'Frontend Engineer',
+    jobTitle: 'Front-end Engineer',
     company: 'Opal',
     location: 'Portland, OR',
     dates: '08/2017 to Current',
     summary: 'Front-end web developer at Opal Labs.',
-    bullets: []
+    bullets: [
+      'Technologies used include: React/Redux, Backbone/Marionette, CoffeeScript, Sass, Rails, Vagrant, PostgreSQL'
+    ]
   },
   {
-    jobTitle: 'Web Developer',
-    company: 'InterCall (West)',
+    jobTitle: 'Front-end Developer',
+    company: 'West Corporation',
     location: 'Portland, OR',
     dates: '04/2015 to 08/2017',
-    summary: 'Front-end developer for _IER_, an event registration e-commerce platform.',
+    summary: 'Front-end developer for _IER_, an event registration e-commerce platform',
     bullets: [
-      'Led a small team in rebuilding the existing front end code base',
+      'Led team in rebuilding existing front-end code base',
       'Provided support, bug-fixes, and custom builds for both internal and external clients',
       'Managed Git/BitBucket repositories to ensure compliance with code style guidelines and keep all custom builds in sync with fixes and new features',
-      'Assisted back end development team in tracking down bugs in C#/ASP.NET codebase',
-      'Technologies used include: ES6/Babel, React/Redux, Angular 1.x, Sass, Bootstrap, Liquid templating engine, and Grunt'
+      'Assisted back-end team in mitigating bugs in C#/ASP.NET codebase',
+      'Technologies used include: AngularJS 1.x, React/Redux, Sass, Bootstrap, Liquid templating engine, Grunt'
     ]
   },
   {
@@ -26,11 +28,10 @@ export default [
     company: 'We Did It Games',
     location: 'Portland, OR',
     dates: '01/2011 to 03/2015',
-    summary: 'Lead game and web developer for game development team.',
+    summary: 'Lead game and web developer for game development team',
     bullets: [
-      'Released two games developed with Flash/ActionScript 3, and one game developed with Unity/C#',
-      'Designed, built, and maintained company website, Wordpress blog, and press-kit ',
-      'Created and implemented plans for all stages of the game development process',
+      'Released one game developed with Unity/C#, and two games developed with Flash/ActionScript 3',
+      'Designed, built, and maintained company website, Wordpress blog, and press-kit',
       'Developed custom WordPress theme and custom high scores API (PHP & MySQL)'
     ]
   },
