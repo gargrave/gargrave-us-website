@@ -1,14 +1,5 @@
-# [WIP] Website: gargrave.us
+# My Website
 
-This is the website I am currently working on as a portfolio/resume site for myself. In its current state, it is more or less ready for public consumption, although I do have a few tweaks left to make. Since I am not a designer, I am keeping the design as simple and clean as possible--lest I should end up with something completely ridiculous looking.
+This is just the source for my personal website. Probably not a great deal of super interesting stuff to see here, as it's effectively just a fancier version of my resume.
 
-You can view the live site [here](https://gargrave.us). 
-
-Dev-wise, I used [create-react-app](https://github.com/facebookincubator/create-react-app) for the base with [Material UI (alpha)](https://github.com/callemall/material-ui/tree/v1-alpha) for the UI layer.
-
-## TODO
-
-These are my short-term todos (i.e. when I have time within the next couple of days):
-
-- [ ] Create a favicon to replace the default React one
-- [ ] Do something with the header area. Anything.
+If you want to see it live, you can view in all of its glory at [https://gargrave.us](https://gargrave.us). Like I said, it's pretty simple.
