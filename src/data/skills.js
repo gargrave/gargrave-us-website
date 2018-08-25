@@ -32,7 +32,7 @@ export default [
     subtitle: '(Nginx, Docker, Digital Ocean, Heroku)'
   },
   {
-    title: 'Database admin',
+    title: 'Database management',
     subtitle: '(PostgreSQL, MySQL, Mongo, Firebase)'
   }
 ]

@@ -4,9 +4,11 @@ export default [
     company: 'Opal',
     location: 'Portland, OR',
     dates: '08/2017 to Current',
-    summary: 'Front-end web developer at Opal Labs.',
+    summary: 'Front-end developer on _Opal_, a marketing collaboration platform',
     bullets: [
-      'Technologies used include: React/Redux, Backbone/Marionette, CoffeeScript, Sass, Rails, Vagrant, PostgreSQL'
+      'Work with functional team to plan, build, and maintain features in our domain',
+      'Collaborate on documentation both before and after feature releases',
+      'Technologies used include: React/Redux, Backbone/Marionette, Mocha/Chai, CoffeeScript, Sass, Rails, Vagrant, PostgreSQL'
     ]
   },
   {
@@ -14,12 +16,12 @@ export default [
     company: 'West Corporation',
     location: 'Portland, OR',
     dates: '04/2015 to 08/2017',
-    summary: 'Front-end developer for _IER_, an event registration e-commerce platform',
+    summary: 'Front-end developer on _IER_, an event registration e-commerce platform',
     bullets: [
-      'Led team in rebuilding existing front-end code base',
-      'Provided support, bug-fixes, and custom builds for both internal and external clients',
-      'Managed Git/BitBucket repositories to ensure compliance with code style guidelines and keep all custom builds in sync with fixes and new features',
-      'Assisted back-end team in mitigating bugs in C#/ASP.NET codebase',
+      'Lead team in rebuilding existing front-end code base',
+      'Provid support, bug-fixes, and custom builds for both internal and external clients',
+      'Manage Git/BitBucket repositories to ensure compliance with code style guidelines and keep all custom builds in sync with fixes and new features',
+      'Assist back-end team in mitigating bugs in C#/ASP.NET codebase',
       'Technologies used include: AngularJS 1.x, React/Redux, Sass, Bootstrap, Liquid templating engine, Grunt'
     ]
   },
@@ -31,8 +33,8 @@ export default [
     summary: 'Lead game and web developer for game development team',
     bullets: [
       'Released one game developed with Unity/C#, and two games developed with Flash/ActionScript 3',
-      'Designed, built, and maintained company website, Wordpress blog, and press-kit',
-      'Developed custom WordPress theme and custom high scores API (PHP & MySQL)'
+      'Design, build, and maintain company website, Wordpress blog, and press-kit',
+      'Develop custom WordPress theme and custom high scores API (PHP & MySQL)'
     ]
   },
   {
