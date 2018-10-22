@@ -1,10 +1,18 @@
 export default [
   {
-    jobTitle: 'Front-end Engineer',
+    jobTitle: 'Senior Software Engineer',
+    company: 'Vacasa',
+    location: 'Portland, OR',
+    dates: '10/2018 to Present',
+    summary: 'Senior frontend engineer on housekeeping management app',
+    bullets: []
+  },
+  {
+    jobTitle: 'Frontend Engineer',
     company: 'Opal',
     location: 'Portland, OR',
-    dates: '08/2017 to Current',
-    summary: 'Front-end developer on _Opal_, a marketing collaboration platform',
+    dates: '08/2017 to 10/2018',
+    summary: 'Frontend engineer on _Opal_, a marketing collaboration platform',
     bullets: [
       'Work with functional team to plan, build, and maintain features in our domain',
       'Collaborate on documentation both before and after feature releases',
@@ -12,16 +20,16 @@ export default [
     ]
   },
   {
-    jobTitle: 'Front-end Developer',
+    jobTitle: 'Frontend Engineer',
     company: 'West Corporation',
     location: 'Portland, OR',
     dates: '04/2015 to 08/2017',
-    summary: 'Front-end developer on _IER_, an event registration e-commerce platform',
+    summary: 'Frontend engineer on _IER_, an event registration e-commerce platform',
     bullets: [
-      'Lead team in rebuilding existing front-end code base',
-      'Provid support, bug-fixes, and custom builds for both internal and external clients',
+      'Lead team in rebuilding existing frontend code base',
+      'Provide support, bug-fixes, and custom builds for both internal and external clients',
       'Manage Git/BitBucket repositories to ensure compliance with code style guidelines and keep all custom builds in sync with fixes and new features',
-      'Assist back-end team in mitigating bugs in C#/ASP.NET codebase',
+      'Assist backend team in mitigating bugs in C#/ASP.NET codebase',
       'Technologies used include: AngularJS 1.x, React/Redux, Sass, Bootstrap, Liquid templating engine, Grunt'
     ]
   },
@@ -44,8 +52,8 @@ export default [
     dates: '',
     summary: 'Various personal projects built with a variety of frameworks and technologies',
     bullets: [
-      'Front-end development with React/Redux, VueJS, Angular, and more',
-      'Back-end development with Node and Django/Django REST Framework',
+      'Frontend development with React/Redux, VueJS, Angular, and more',
+      'Backend development with Node and Django/Django REST Framework',
       'Hybrid web/mobile development with Quasar and Ionic',
       'See the _Projects_ section below for project-specific details'
     ]

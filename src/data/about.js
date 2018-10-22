@@ -1,6 +1,6 @@
 export default [
   `
-  Hi there! My name is **Gabe Hargrave**, and I am a software developer. While my primary focus is front-end web development,
+  Hi there! My name is **Gabe Hargrave**, and I am a software developer. While my primary focus is frontend web development,
   I get excited about all aspects of software engineering, and I am always pushing myself to learn and apply new things.`,
   `
   The information below is basically everything you will find on my resume, albeit a bit expanded in some places.

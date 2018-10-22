@@ -8,11 +8,11 @@ export default [
     subtitle: '(proficient)'
   },
   {
-    title: 'Front-end web development',
+    title: 'Frontend web development',
     subtitle: '(React/Redux, Angular, Vue, jQuery)'
   },
   {
-    title: 'Back-end web development',
+    title: 'Backend web development',
     subtitle: '(Node, Django, Rails, PHP)'
   },
   {

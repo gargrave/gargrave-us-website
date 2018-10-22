@@ -4,20 +4,15 @@ export default [
     subtitle: 'An event registration platform',
     description: [
       'Let\'s classify this as a **major WIP** at the moment, but hopefully it will take shape over time.',
-      'Front-end built with React/Redux, back-end built with HapiJS. The primary focus for this project at the moment is building the API. Progress is slow, but it will get there one of these days...'
+      'Frontend built with React/Redux, backend built with HapiJS. The primary focus for this project at the moment is building the API. Progress is slow, but it will get there one of these days...'
     ],
     links: [
       {
-        color: 'primary',
-        title: 'Live Demo',
-        url: 'https://bookly-prod.firebaseapp.com/account/register'
-      },
-      {
-        title: 'Front-end Source @ GitHub',
+        title: 'Frontend Source @ GitHub',
         url: 'https://github.com/gargrave/eventevent'
       },
       {
-        title: 'Back-end Source @ GitHub',
+        title: 'Backend Source @ GitHub',
         url: 'https://github.com/gargrave/eventevent-api'
       }
     ]
@@ -26,7 +21,7 @@ export default [
     title: 'Bookly (Firebase)',
     subtitle: 'A "books and authors" CRUD app. Track your favorite authors, then track their books! Amazing!',
     description: [
-      'Bookly resurrected! Not really--this is effectively a more up-to-date fork of the previous Bookly front-end, now using Firebase.',
+      'Bookly resurrected! Not really--this is effectively a more up-to-date fork of the previous Bookly frontend, now using Firebase.',
       'I decided to just use Firebase since the database needs are so simple, and it was a major PITA keeping my own API updated and running.'
     ],
     links: [
@@ -36,7 +31,7 @@ export default [
         url: 'https://bookly-prod.firebaseapp.com/account/register'
       },
       {
-        title: 'Front-end Source @ GitHub',
+        title: 'Frontend Source @ GitHub',
         url: 'https://github.com/gargrave/bookly-client-firebase'
       }
     ]
@@ -46,15 +41,20 @@ export default [
     subtitle: 'A "books and authors" CRUD app. Track your favorite authors, then track their books! Amazing!',
     description: [
       'I intentionally kept the design of this app simple so I could focus on learning the HapiJS ecosystem.',
-      'Front-end built with [Quasar](https://github.com/quasarframework/quasar) (Vue), back-end built with [HapiJS](https://github.com/hapijs/hapi) (Node). For more details, check out the demo and/or repos below!'
+      'Frontend built with [Quasar](https://github.com/quasarframework/quasar) (Vue), backend built with [HapiJS](https://github.com/hapijs/hapi) (Node). For more details, check out the demo and/or repos below!'
     ],
     links: [
       {
-        title: 'Front-end Source @ GitHub',
-        url: 'https://github.com/gargrave/bookly-client-react'
+        color: 'primary',
+        title: 'Live Demo (Quasar version)',
+        url: 'https://www.bookly-app.us'
       },
       {
-        title: 'Back-end Source @ GitHub',
+        title: 'Frontend Source @ GitHub',
+        url: 'https://github.com/gargrave/bookly-client-vue'
+      },
+      {
+        title: 'Backend Source @ GitHub',
         url: 'https://github.com/gargrave/bookly-server'
       }
     ]
@@ -64,8 +64,8 @@ export default [
     subtitle: 'A "save it for later" bookmarking app, similar to Pocket or Google Keep.',
     description: [
       "I have used Pocket and Keep off and on for a few years, and while I like them both, I also have many complaints about both of them. So I built this to include only the features I like without any of the extra junk I don't like.",
-      'Front-end built with [Vue](https://github.com/vuejs/vue) + [Element](https://github.com/ElemeFE/element), back-end built with [Django REST Framework](https://github.com/encode/django-rest-framework). For more details, check out the demo and/or repos below!',
-      "**Note**: The back-end is deployed on a free Heroku dyno, so if it takes a few seconds to spin up, don't panic! Everything is going to be okay, I promise!"
+      'Frontend built with [Vue](https://github.com/vuejs/vue) + [Element](https://github.com/ElemeFE/element), backend built with [Django REST Framework](https://github.com/encode/django-rest-framework). For more details, check out the demo and/or repos below!',
+      "**Note**: The backend is deployed on a free Heroku dyno, so if it takes a few seconds to spin up, don't panic! Everything is going to be okay, I promise!"
     ],
     links: [
       {
@@ -74,11 +74,11 @@ export default [
         url: 'https://www.snippets-app.com'
       },
       {
-        title: 'Front-end Source @ GitHub',
+        title: 'Frontend Source @ GitHub',
         url: 'https://github.com/gargrave/snippets-client'
       },
       {
-        title: 'Back-end Source @ GitHub',
+        title: 'Backend Source @ GitHub',
         url: 'https://github.com/gargrave/snippets-server'
       }
     ]
@@ -88,8 +88,8 @@ export default [
     subtitle: 'An app to tracking gaming habits.',
     description: [
       'A fairly simple app to allow you to track your gaming habits. I have a strong, very non-scientific fixation with seeing what games I was playing when, and for how many days, so I built this app to let me do just that.',
-      'Front-end built with [Quasar](https://github.com/quasarframework/quasar) (Vue), back-end built with [Django REST Framework](https://github.com/encode/django-rest-framework). For more details, check out the demo and/or repos below!',
-      "**Note**: The back-end is deployed on a free Heroku dyno, so if it takes a few seconds to spin up, don't panic! Everything is going to be okay, I promise!"
+      'Frontend built with [Quasar](https://github.com/quasarframework/quasar) (Vue), backend built with [Django REST Framework](https://github.com/encode/django-rest-framework). For more details, check out the demo and/or repos below!',
+      "**Note**: The backend is deployed on a free Heroku dyno, so if it takes a few seconds to spin up, don't panic! Everything is going to be okay, I promise!"
     ],
     links: [
       {
@@ -98,11 +98,11 @@ export default [
         url: 'https://www.gameon-app.com'
       },
       {
-        title: 'Front-end Source @ GitHub',
+        title: 'Frontend Source @ GitHub',
         url: 'https://github.com/gargrave/gameon-client-quasar'
       },
       {
-        title: 'Back-end Source @ GitHub',
+        title: 'Backend Source @ GitHub',
         url: 'https://github.com/gargrave/gameon-server'
       }
     ]
